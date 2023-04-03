@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_EgpWYNHVEe2ddt47PzgGCA">
+    <contextParameter comment="Snowflake Locator" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;vm81849.ap-southeast-1&quot;" xmi:id="_EgpWYdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Username" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;JLAURENTE&quot;" xmi:id="_EgpWYtHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Password" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:k3YzW1MbzxuiQEs3qsTYAsKnERUQhIqxg/tVFMxZX1Y7Q6qysNU0sH79Hqurcw==" xmi:id="_EgpWY9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Warehouse" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;COMPUTE_WH&quot;" xmi:id="_EgpWZNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Schema" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PUBLIC&quot;" xmi:id="_EgpWZdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Database" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;OUR_FIRST_DB&quot;" xmi:id="_EgpWZtHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Staging Area" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;STG&quot;" xmi:id="_EgpWZ9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Work Area" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;WRK&quot;" xmi:id="_EgpWaNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Core Zone" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CORE&quot;" xmi:id="_EgpWadHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Reporting Layer" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PRES&quot;" xmi:id="_EgpWatHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Role" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ACCOUNTADMIN&quot;" xmi:id="_EgpWa9HVEe2ddt47PzgGCA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="devl" xmi:id="_EgpWbNHVEe2ddt47PzgGCA">
+    <contextParameter comment="Snowflake Locator" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;vm81849.ap-southeast-1&quot;" xmi:id="_EgpWbdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Username" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;JLAURENTE&quot;" xmi:id="_EgpWbtHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Password" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:FqSxt6ye2gfJlZYqsaKTnHjc/En8RCa/O8pLwjTVNeOcs+KugaoH16iYRKZsjA==" xmi:id="_EgpWb9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Warehouse" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;COMPUTE_WH&quot;" xmi:id="_EgpWcNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Schema" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PUBLIC&quot;" xmi:id="_EgpWcdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Database" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEVL&quot;" xmi:id="_EgpWctHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Staging Area" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;STG&quot;" xmi:id="_EgpWc9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Work Area" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;WRK&quot;" xmi:id="_EgpWdNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Core Zone" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CORE&quot;" xmi:id="_EgpWddHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Reporting Layer" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PRES&quot;" xmi:id="_EgpWdtHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Role" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ACCOUNTADMIN&quot;" xmi:id="_EgpWd9HVEe2ddt47PzgGCA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_EgpWeNHVEe2ddt47PzgGCA">
+    <contextParameter comment="Snowflake Locator" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;vm81849.ap-southeast-1&quot;" xmi:id="_EgpWedHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Username" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;JRLAURENTE&quot;" xmi:id="_EgpWetHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Password" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:BZ8E9XPo40kZ9GRyzxgxRDlXXUed6GMD9vIRWB17+XI/yWHzbHYmh2A=" xmi:id="_EgpWe9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Warehouse" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;V1_WH&quot;" xmi:id="_EgpWfNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Schema" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PUBLIC&quot;" xmi:id="_EgpWfdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Database" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;V1_POC&quot;" xmi:id="_EgpWftHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Staging Area" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;STG&quot;" xmi:id="_EgpWf9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Work Area" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;WRK&quot;" xmi:id="_EgpWgNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Core Zone" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CORE&quot;" xmi:id="_EgpWgdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Reporting Layer" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PRES&quot;" xmi:id="_EgpWgtHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Role" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;VENDOR1&quot;" xmi:id="_EgpWg9HVEe2ddt47PzgGCA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="qual" xmi:id="_EgpWhNHVEe2ddt47PzgGCA">
+    <contextParameter comment="Snowflake Locator" name="sfServerName" prompt="sfServerName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;vm81849.ap-southeast-1&quot;" xmi:id="_EgpWhdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Username" name="sfUserName" prompt="sfUserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;JLAURENTE&quot;" xmi:id="_EgpWhtHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Password" name="sfPassword" prompt="sfPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:M5ztjxsPFYxIjMAbS+84XmOftVe4fL2UYUfFwoSgBe5cHWmLporGEKXOgrw52A==" xmi:id="_EgpWh9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Warehouse" name="sfWarehouse" prompt="sfWarehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;COMPUTE_WH&quot;" xmi:id="_EgpWiNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Schema" name="sfSchema" prompt="sfSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PUBLIC&quot;" xmi:id="_EgpWidHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Database" name="sfDatabase" prompt="sfDatabase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEVL&quot;" xmi:id="_EgpWitHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Staging Area" name="sfStgSchema" prompt="sfStgSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;STG&quot;" xmi:id="_EgpWi9HVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Work Area" name="sfWrkSchema" prompt="sfWrkSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;WRK&quot;" xmi:id="_EgpWjNHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Core Zone" name="sfCoreSchema" prompt="sfCoreSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CORE&quot;" xmi:id="_EgpWjdHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Reporting Layer" name="sfPresSchema" prompt="sfPresSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PRES&quot;" xmi:id="_EgpWjtHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Snowflake Default Role" name="sfRole" prompt="sfRole?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ACCOUNTADMIN&quot;" xmi:id="_EgpWj9HVEe2ddt47PzgGCA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_353fdcd1-2dcd-4ef6-97ec-a46a62121872"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RVL/zjP6lYG3L2RbyJQbugPh/PrhuSJzVjvS91httjdMdHOQotk6ZjgFKf01Kv+yObnWoNxPaevD&#13;
+zafoTlKYhw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_68f74e7b-9eb9-47e3-9803-aa8a924dfea1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bk7W7aMX4d56I3tfcbjZkxenMPNMqXdODlBdHDBFPm3T89R40MtmHCSO+6mRKsz5LLhqjwclpoz7&#13;
+il6CLuJQ5g==</DigestValue></Reference></SignedInfo><SignatureValue>kXaS7fWFn6UbMc/IUnGSA6wIT84ZcszBOxfKtjjUZnM+M3CoObgGqjFcae7rLm1y+l5K/xJEQM2J&#13;
+4vo+pYYxNTmv6Y1TG8MRYgEe3ZDh7eNJ3oL1OtPdnAuUgQemkuT6fwaCgeRZSbNQx2MsgQPlXTjG&#13;
+udcKSOF0moo50w4OR9r3FdoucmtPGfLxrbyGfoj4ZtB0N2r/4Wd1mp2sqm3ImpK5rllLwGBOXTTd&#13;
+i3suogvkfdwgKAb1pBV6h9Y8Y88cVZhIiBHsqs4P+ZwOKNgmYDxKpezO1suQlnoEO/bxgc2ofRVi&#13;
+1aen7ySM1YGEOT8N56GNWpglH1Fd/aeilBDHGA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_68f74e7b-9eb9-47e3-9803-aa8a924dfea1" Target="#_353fdcd1-2dcd-4ef6-97ec-a46a62121872"><Timestamp>2023-04-03 05:05:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
