@@ -9,6 +9,8 @@
     <contextParameter comment="Transaction Type staging table" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;transaction_type_stg&quot;" xmi:id="_nRZYh9HVEe2ddt47PzgGCA"/>
     <contextParameter comment="Payee staging table" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;payee_stg&quot;" xmi:id="_nRZYiNHVEe2ddt47PzgGCA"/>
     <contextParameter comment="Company staging table" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;company_stg&quot;" xmi:id="_nRZYidHVEe2ddt47PzgGCA"/>
+    <contextParameter comment="Work table for NONPO Transactions" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphMNH1Ee2Vhc3_TrM1-Q"/>
+    <contextParameter comment="Core table for NONPO Transactions" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphMdH1Ee2Vhc3_TrM1-Q"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="devl" xmi:id="_UzOMANHgEe2ddt47PzgGCA">
     <contextParameter comment="Non-PO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_stg_v4&quot;" xmi:id="_UzOMAdHgEe2ddt47PzgGCA"/>
@@ -20,6 +22,8 @@
     <contextParameter comment="Transaction Type staging table" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;transaction_type_stg&quot;" xmi:id="_UzOMB9HgEe2ddt47PzgGCA"/>
     <contextParameter comment="Payee staging table" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;payee_stg&quot;" xmi:id="_UzOMCNHgEe2ddt47PzgGCA"/>
     <contextParameter comment="Company staging table" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;company_stg&quot;" xmi:id="_UzOMCdHgEe2ddt47PzgGCA"/>
+    <contextParameter comment="Work table for NONPO Transactions" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphMtH1Ee2Vhc3_TrM1-Q"/>
+    <contextParameter comment="Core table for NONPO Transactions" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphM9H1Ee2Vhc3_TrM1-Q"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_UzOMCtHgEe2ddt47PzgGCA">
     <contextParameter comment="Non-PO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_stg_v4&quot;" xmi:id="_UzOMC9HgEe2ddt47PzgGCA"/>
@@ -31,6 +35,8 @@
     <contextParameter comment="Transaction Type staging table" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;transaction_type_stg&quot;" xmi:id="_UzOMEdHgEe2ddt47PzgGCA"/>
     <contextParameter comment="Payee staging table" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;payee_stg&quot;" xmi:id="_UzOMEtHgEe2ddt47PzgGCA"/>
     <contextParameter comment="Company staging table" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;company_stg&quot;" xmi:id="_UzOME9HgEe2ddt47PzgGCA"/>
+    <contextParameter comment="Work table for NONPO Transactions" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphNNH1Ee2Vhc3_TrM1-Q"/>
+    <contextParameter comment="Core table for NONPO Transactions" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphNdH1Ee2Vhc3_TrM1-Q"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="qual" xmi:id="_UzOMFNHgEe2ddt47PzgGCA">
     <contextParameter comment="Non-PO transactions staging table" name="stgNonPoTbl" prompt="stgNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_stg_v4&quot;" xmi:id="_UzOMFdHgEe2ddt47PzgGCA"/>
@@ -42,14 +48,16 @@
     <contextParameter comment="Transaction Type staging table" name="stgTransTypeTbl" prompt="stgTransTypeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;transaction_type_stg&quot;" xmi:id="_UzOMG9HgEe2ddt47PzgGCA"/>
     <contextParameter comment="Payee staging table" name="stgPayeeTbl" prompt="stgPayeeTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;payee_stg&quot;" xmi:id="_UzOMHNHgEe2ddt47PzgGCA"/>
     <contextParameter comment="Company staging table" name="stgCompanyTbl" prompt="stgCompanyTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;company_stg&quot;" xmi:id="_UzOMHdHgEe2ddt47PzgGCA"/>
+    <contextParameter comment="Work table for NONPO Transactions" name="wrkNonPoTbl" prompt="wrkNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphNtH1Ee2Vhc3_TrM1-Q"/>
+    <contextParameter comment="Core table for NONPO Transactions" name="corNonPoTbl" prompt="corNonPoTbl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poc_nonpo_transactions_v4&quot;" xmi:id="_pxphN9H1Ee2Vhc3_TrM1-Q"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3245cfa3-c58e-4114-88ee-62ff83650dfc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Xu2d1mfYHCnxmK4O4IkyTUtKTj06I7X1dsP0ohs7QS/BMNkyoI/Uu0t+zmUOwYPb7slFLrqn2fba&#13;
-eMqTXCegKQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3bde6a05-ec12-4f53-95ef-0e63739e4670"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>N9ueeA8L9A6RnF5WXAAF92oS1/wR2QKJ1TA8Oaq8j7W2vPcDm8KHRXH5su8XrujyLEvRkutpk9BO&#13;
-HlMb92mkOg==</DigestValue></Reference></SignedInfo><SignatureValue>RrqvtdWew/K/j6jRLYgNJL8zYfZHuy/x0AqVnUlXXBqjvXfFAqYFtSTZM8GnwySAWLAAs4u4933u&#13;
-wXSHPxApe6LJMuBFnKRnfunFjZbFhqFnTpJX45bVj9Qy0reXdDv4t5e2FsOi8uWeh4PO1UOZY5g3&#13;
-dH0/O+Wzn3klUausBIamXiKEwoxUyPCzzDves3yKPfn1YSvkf7MER9hlU3bjMMfqns5RMcw/hNYx&#13;
-2m8F0rzRkzIA8L4uNgUP3TRDILn2xdnGO2lya+E/arTldhdphaQdeZtfHrzH6t2C65IzzfB7/xS0&#13;
-jfgWQ98gGL8rc8R+JSX8BkggA5XX0aLYO2R3pQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8aba1ebf-fd72-43db-a6b1-e37a32dce52c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SQ1tqpblSxcBN2xaXpkhJ3bjRkXXVavniDsZsBLr4cnE3iVPf2B53OSkpV5HxCejTl1t369DGOIT&#13;
+1K8a/fzaTw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3430443c-5229-4012-aa5a-d260e8e8c44a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dOh29j7yZGpFLfgv94cLHYfHAQ2banzfXPhetW3KoqUI+64qIMtZyiBFC3LLnXS/dYckM+3GRJth&#13;
+X0cte6nv3g==</DigestValue></Reference></SignedInfo><SignatureValue>hB9+ziBE7LjgX6pihQPOmZFHMwrsDsrbI0jzRBr4OFB5F8171lO6L6RGkE24J3RVbBvF5mzJPi92&#13;
+TjJ/hDETzCb+ftlk5M1np8YWJuWfQQYlT/ONfuJmJ2ajkH6Zx5fNIIDPWxnhZo+Zfam+Gx8/vLPB&#13;
+DaCjXOd4zJT0Jmfcm5g06LMTVFqglHVXNmkbJYLvtXf5KtuiakdTBdAlA9oH1hEPJ9KmxrxkG2WU&#13;
+RBxQMpTVMCCVt4558oCU00oMc06sue4VNqSy2QDOEovMoQCCScJmjAEHA55ZhDUgjWE/4XgQRqrV&#13;
+uPNsfoUiZ5hPHsIGJv77VhdtT1djtheOWyRMTA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -71,4 +79,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3bde6a05-ec12-4f53-95ef-0e63739e4670" Target="#_3245cfa3-c58e-4114-88ee-62ff83650dfc"><Timestamp>2023-04-03 05:01:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3430443c-5229-4012-aa5a-d260e8e8c44a" Target="#_8aba1ebf-fd72-43db-a6b1-e37a32dce52c"><Timestamp>2023-04-03 07:30:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
