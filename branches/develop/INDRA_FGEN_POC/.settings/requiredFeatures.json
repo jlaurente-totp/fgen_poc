@@ -1,0 +1,7 @@
+{
+  "version" : "1.0.0",
+  "disable" : null,
+  "requiredInstallableUnits" : [ {
+    "id" : "org.talend.studio.components.tcompv0.snowflakeee.feature.feature.group"
+  } ]
+}
